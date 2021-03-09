@@ -31,8 +31,8 @@ namespace GratisSpulBot.Tweakers
 
                 var tweakersDecember = new TweakersDecember();
                 var tweakersDecemberLinks = await tweakersDecember.GetTodaysLinks();
-                var telegramToken = "801203183:AAG1YqRtYb-0tfqU8amM5IadYIux0uXSFes";
-                var telegramGroupId = "-1001156213500";
+                var telegramToken = "";
+                var telegramGroupId = "";
                 var telegram = new Telegram(telegramToken);
                 if (tweakersDecemberLinks.Count == 0)
                 {
